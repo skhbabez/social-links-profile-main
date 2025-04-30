@@ -50,17 +50,11 @@ main {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-.avatar {
-  width: 88px;
-  height: 100%;
-  border-radius: 50%;
+  color: hsl(228, 52.9%, 50%);
 }
 
 .card {
@@ -73,6 +67,13 @@ main {
   border-radius: 12px;
   min-width: 327px;
   gap: 24px;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
 }
 
 .profile {
@@ -95,6 +96,7 @@ main {
 }
 
 .bio {
+  font-size: 1.4rem;
 }
 
 .linklist {
